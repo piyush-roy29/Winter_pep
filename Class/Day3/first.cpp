@@ -1,3 +1,5 @@
+// Home work Day 3
+
 // find bassic common algo havving complexity having TC under root n ncube and n
 
 // implement binary search using recursion
