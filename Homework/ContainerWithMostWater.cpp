@@ -13,7 +13,7 @@ public:
             int h = min(height[left], height[right]);
             maxWater = max(maxWater, width * h);
 
-            // Move the smaller height pointer
+
             if (height[left] < height[right])
             {
                 left++;

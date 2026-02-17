@@ -1,5 +1,4 @@
-// The API isBadVersion is defined for you.
-// bool isBadVersion(int version);
+
 
 class Solution
 {
@@ -23,8 +22,7 @@ public:
         }
         return ans;
     }
-}; // The API isBadVersion is defined for you.
-// bool isBadVersion(int version);
+
 
 class Solution
 {

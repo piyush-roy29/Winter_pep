@@ -8,7 +8,7 @@ public:
         vector<int> lis(n, 1);
         vector<int> lds(n, 1);
 
-        // Compute LIS (left to right)
+
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < i; j++)
@@ -20,7 +20,7 @@ public:
             }
         }
 
-        // Compute LDS (right to left)
+
         for (int i = n - 1; i >= 0; i--)
         {
             for (int j = n - 1; j > i; j--)

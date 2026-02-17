@@ -12,7 +12,7 @@ public:
         for (int i = 0; i < n - 2; i++)
         {
             int l = i + 1, r = n - 1;
-            // skip duplicate
+
             if (i != 0 && nums[i] == nums[i - 1])
                 continue;
 

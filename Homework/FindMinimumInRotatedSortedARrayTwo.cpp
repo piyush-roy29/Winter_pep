@@ -5,7 +5,7 @@ public:
     {
         int low = 0;
         int high = nums.size() - 1;
-        // int ans = nums[0];
+
 
         while (low < high)
         {

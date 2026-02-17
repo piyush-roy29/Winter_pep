@@ -5,12 +5,7 @@ public:
     {
         int n = needle.size();
         int m = haystack.size();
-        // for(int i=0; i<= m-n; i++){
-        //     if(haystack.substr(i,n).compare(needle) == 0){
-        //         return i;
-        //     }
-        // }
-        // return -1;
+
         for (int i = 0; i <= m - n; i++)
         {
             int j = 0;

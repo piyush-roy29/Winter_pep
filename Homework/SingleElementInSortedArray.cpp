@@ -8,13 +8,12 @@ public:
             return nums[0];
 
         int s = 0, e = n - 1;
-        // if equal then 0 index = even and next is odd and this same continues until it hit single occurance
-        // then after that first will be odd and second will be even
+
         while (s <= e)
         {
             int mid = s + (e - s) / 2;
 
-            // edge cases
+
             if (mid == 0 && nums[mid] != nums[mid + 1])
                 return nums[mid];
             if (mid == n - 1 && nums[mid] != nums[mid - 1])
